@@ -1,7 +1,6 @@
 // modules1.rs
 // Make me compile! Execute `rustlings hint modules1` for hints :)
 
-// I AM NOT DONE
 
 mod sausage_factory {
     pub fn make_sausage() {
@@ -25,7 +24,7 @@ fn main() {
     sausage_factory::make_sausage();
 
     let _test = sausage_factory::Test::new(String::from("Alloa"));
-    let _test_without_new = sausage_factory::Test{public: String::from("sfsd")};
+    //let _test_without_new = sausage_factory::Test{public: String::from("sfsd")};
     let info = _test.get_private();
     println!("content is {}",info);
 }
