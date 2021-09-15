@@ -16,8 +16,6 @@ impl Message {
 }
 
 fn main() {
-    let test: IpAddr;
-    test
     let messages = [
         Message::Move { x: 10, y: 30 },
         Message::Echo(String::from("hello world")),
